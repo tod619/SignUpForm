@@ -30,6 +30,7 @@ font-family: 'Roboto Condensed', sans-serif; */
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  display: none;
 }
 
 /* Banner Heading */
@@ -98,5 +99,4 @@ font-family: 'Roboto Condensed', sans-serif; */
 
 /* Hide the form container */
 .form-container {
-  display: none;
 }
