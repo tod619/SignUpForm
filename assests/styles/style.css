@@ -109,3 +109,31 @@ font-family: 'Roboto Condensed', sans-serif; */
   transform: translate(-50%, -50%);
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4);
 }
+
+/* Sign up form */
+.sign-up-form {
+  width: 50%;
+  background-color: #232328;
+  padding: 120px 50px;
+  box-sizing: border-box;
+}
+
+/* Form inputs */
+.form-input {
+  width: 300px;
+  font-family: "Oswald", sans-serif;
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: #cc683c;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #fff;
+  margin-bottom: 50px;
+  outline: none;
+  padding: 10px 0;
+  transition: border-bottom-color 0.8s;
+}
+
+.form-input:focus {
+  border-bottom-color: #cc683c;
+}
