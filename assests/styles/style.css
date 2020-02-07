@@ -137,3 +137,13 @@ font-family: 'Roboto Condensed', sans-serif; */
 .form-input:focus {
   border-bottom-color: #cc683c;
 }
+
+/* Paragraph */
+.sign-up-form p {
+  color: #fff;
+  font-family: "Oswald", sans-serif;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: 200;
+  margin-bottom: 8px;
+}
