@@ -20,14 +20,27 @@ font-family: 'Roboto Condensed', sans-serif; */
 .banner {
   color: #fff;
   width: 750px;
+  /* Positon banner div */
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -59%);
+  /* Positon banner content using flexbox */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+/* Banner Heading */
+.banner-heading {
+  /* Change Font family */
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 80px;
+  text-transform: uppercase;
+  margin-bottom: 80px;
+  border-top: 7px solid #fff;
+  border-bottom: 7px solid #fff;
 }
 
 /* Hide the form container */
