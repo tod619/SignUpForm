@@ -47,6 +47,7 @@ font-family: 'Roboto Condensed', sans-serif; */
 .arrow {
   font-size: 50px;
   margin-bottom: 30px;
+  animation: anim 3s infinite;
 }
 
 /* Banner Button */
@@ -68,6 +69,31 @@ font-family: 'Roboto Condensed', sans-serif; */
 
 .banner-btn:hover {
   transform: translateY(-1px);
+}
+
+/* Annimation for the arrow icon */
+@keyframes anim {
+  0% {
+    transform: translateY(0);
+  }
+  20% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+  80% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 
 /* Hide the form container */
