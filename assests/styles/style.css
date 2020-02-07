@@ -197,6 +197,18 @@ font-family: 'Roboto Condensed', sans-serif; */
 
 /* Button */
 .sign-up-form button {
+  background-color: transparent;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  color: #fff;
+  cursor: pointer;
   display: block;
-  margin-top: 8px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 15px;
+  letter-spacing: 1px;
+  margin-top: 80px;
+  outline: none;
+  padding: 8px 5px;
+  text-transform: uppercase;
+  width: 150px;
 }
