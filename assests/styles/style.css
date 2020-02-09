@@ -31,7 +31,6 @@ font-family: 'Roboto Condensed', sans-serif; */
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  display: none;
 }
 
 /* Banner Heading */
@@ -108,8 +107,8 @@ font-family: 'Roboto Condensed', sans-serif; */
   left: 50%;
   transform: translate(-50%, -50%);
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4);
-  /* opacity: 0;
-  visibility: hidden; */
+  opacity: 0;
+  visibility: hidden;
   transition: opacity 1s;
 }
 
@@ -298,8 +297,29 @@ font-family: 'Roboto Condensed', sans-serif; */
   .header h1 {
     font-size: 30px;
   }
+}
 
+@media (max-width: 800px) {
   /* Banner */
+  .banner {
+    width: 450px;
+  }
+
+  .banner-heading {
+    font-size: 60px;
+    margin-bottom: 40px;
+    border-width: 4px;
+  }
+
+  .arrow {
+    font-size: 30px;
+  }
+
+  .banner-btn {
+    width: 150px;
+    padding: 10px;
+    font-size: 15px;
+  }
 }
 
 @media (max-width: 650px) {
