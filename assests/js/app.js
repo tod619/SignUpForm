@@ -10,5 +10,5 @@ document.querySelector(".x-btn").addEventListener("click", () => {
   document.querySelector(".form-container").style.cssText =
     "opacity: 0; visibility: hidden";
   document.querySelector(".container").style.cssText =
-    "background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .7)), url(../assests/images/bg1.jpeg) center no-repeat; background-size: cover";
+    "background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .7)), url(assests/images/bg1.jpeg) center no-repeat; background-size: cover";
 });
