@@ -252,6 +252,7 @@ font-family: 'Roboto Condensed', sans-serif; */
 
 /* Media Quries */
 @media (max-width: 850px) {
+  /* Form */
   .form-container {
     width: 600px;
     height: 400px;
@@ -297,4 +298,23 @@ font-family: 'Roboto Condensed', sans-serif; */
   .header h1 {
     font-size: 30px;
   }
+
+  /* Banner */
+}
+
+@media (max-width: 650px) {
+  /* Form */
+  .header {
+    display: none;
+  }
+
+  .form-container {
+    width: 300px;
+  }
+
+  .sign-up-form {
+    width: 100%;
+  }
+
+  /* Banner */
 }
