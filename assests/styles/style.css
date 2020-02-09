@@ -335,6 +335,15 @@ font-family: 'Roboto Condensed', sans-serif; */
   .sign-up-form {
     width: 100%;
   }
+}
 
+@media (max-width: 500px) {
   /* Banner */
+  .banner {
+    width: 300px;
+  }
+
+  .banner-heading {
+    font-size: 40px;
+  }
 }
